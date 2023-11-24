@@ -1,0 +1,116 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    color: #F5F5F5;
+    background-color: #23252C;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Inter', sans-serif;
+}
+
+.container {
+    max-width: 280px;
+    margin: auto;
+    background-color: #1A1B21;
+    border-radius: 10px;
+}
+
+img {
+    max-width: 100%;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.name-email {
+    margin: auto;
+}
+
+h2, .title, .website {
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 0;
+}
+
+.title {
+    color: #F3BF99;
+    font-size: 0.90rem;
+    margin-top: 0.125em
+}
+
+.website {
+    font-size: 0.75rem;
+    margin-top: 0.150em;
+}
+
+.button-container {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+    align-items: center;
+}
+
+.email-btn, .linkedin-btn {
+    padding: 0.5em 1.5em;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-size: 0.8rem;
+}
+
+.linkedin-btn {
+    background-color: #5093E2;
+    color: white;
+}
+
+i {
+    padding-right: 0.5em;
+}
+
+.about-container,
+.interests-container {
+    padding: 0 1.5em 0 1.5em;
+}
+
+h4 {
+    color: #DCDCDC;
+    margin-bottom: 0;
+}
+
+.interests {
+    margin-top: 1.5em;
+}
+
+.about-container > p,
+.interests-container > p {
+    color: #DCDCDC;
+    font-size: 0.80rem;
+    line-height: 1.5;
+}
+
+footer {
+    height: 3em;
+    background-color: #161619;
+    margin-top: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+    border-radius: 0px 0px 10px 10px;
+}
+
+footer > a {
+    color: #918E9B;
+    font-size: 1.8rem;
+    text-decoration: none;
+}
